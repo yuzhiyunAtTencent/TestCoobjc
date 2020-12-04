@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09C888ED23782B2800E56F96 /* MultiThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C888EC23782B2800E56F96 /* MultiThread.m */; };
+		09E01C29238FA9BA005AFE0D /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E01C28238FA9B9005AFE0D /* Counter.m */; };
+		09E25893232E5D92005C0B41 /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E25892232E5D92005C0B41 /* Actor.m */; };
 		09FD1C4022FAC77B00EAD4B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FD1C3F22FAC77B00EAD4B7 /* AppDelegate.m */; };
 		09FD1C4322FAC77B00EAD4B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FD1C4222FAC77B00EAD4B7 /* ViewController.m */; };
 		09FD1C4622FAC77B00EAD4B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FD1C4422FAC77B00EAD4B7 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		09FD1C4E22FAC77C00EAD4B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FD1C4D22FAC77C00EAD4B7 /* main.m */; };
 		09FD1C5822FAC77C00EAD4B7 /* TestCoobjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FD1C5722FAC77C00EAD4B7 /* TestCoobjcTests.m */; };
 		09FD1C6322FAC77C00EAD4B7 /* TestCoobjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FD1C6222FAC77C00EAD4B7 /* TestCoobjcUITests.m */; };
+		CF7593C9C4DB28647F5D6F6A /* libPods-TestCoobjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F989B9ADCD523C7B74EEA7 /* libPods-TestCoobjc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F989B9ADCD523C7B74EEA7 /* libPods-TestCoobjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCoobjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C888EB23782B2800E56F96 /* MultiThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
+		09C888EC23782B2800E56F96 /* MultiThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThread.m; sourceTree = "<group>"; };
+		09E01C27238FA9B9005AFE0D /* Counter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Counter.h; sourceTree = "<group>"; };
+		09E01C28238FA9B9005AFE0D /* Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
+		09E25891232E5D92005C0B41 /* Actor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		09E25892232E5D92005C0B41 /* Actor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
 		09FD1C3B22FAC77B00EAD4B7 /* TestCoobjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoobjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FD1C3E22FAC77B00EAD4B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09FD1C3F22FAC77B00EAD4B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,8 @@
 		09FD1C5E22FAC77C00EAD4B7 /* TestCoobjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCoobjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FD1C6222FAC77C00EAD4B7 /* TestCoobjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCoobjcUITests.m; sourceTree = "<group>"; };
 		09FD1C6422FAC77C00EAD4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD627804E5F3F0BBE256B2B /* Pods-TestCoobjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCoobjc.release.xcconfig"; path = "Target Support Files/Pods-TestCoobjc/Pods-TestCoobjc.release.xcconfig"; sourceTree = "<group>"; };
+		138C0C25C83B5209266157A7 /* Pods-TestCoobjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCoobjc.debug.xcconfig"; path = "Target Support Files/Pods-TestCoobjc/Pods-TestCoobjc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7593C9C4DB28647F5D6F6A /* libPods-TestCoobjc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09E25890232E5CBC005C0B41 /* Actor Model */ = {
+			isa = PBXGroup;
+			children = (
+				09E25891232E5D92005C0B41 /* Actor.h */,
+				09E25892232E5D92005C0B41 /* Actor.m */,
+				09C888EB23782B2800E56F96 /* MultiThread.h */,
+				09C888EC23782B2800E56F96 /* MultiThread.m */,
+				09E01C27238FA9B9005AFE0D /* Counter.h */,
+				09E01C28238FA9B9005AFE0D /* Counter.m */,
+			);
+			path = "Actor Model";
+			sourceTree = "<group>";
+		};
 		09FD1C3222FAC77B00EAD4B7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				09FD1C5622FAC77C00EAD4B7 /* TestCoobjcTests */,
 				09FD1C6122FAC77C00EAD4B7 /* TestCoobjcUITests */,
 				09FD1C3C22FAC77B00EAD4B7 /* Products */,
+				A1E3AFE2F97853A54951C6D2 /* Pods */,
+				884661101BA5AAD232EE9767 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +134,7 @@
 				09FD1C3F22FAC77B00EAD4B7 /* AppDelegate.m */,
 				09FD1C4122FAC77B00EAD4B7 /* ViewController.h */,
 				09FD1C4222FAC77B00EAD4B7 /* ViewController.m */,
+				09E25890232E5CBC005C0B41 /* Actor Model */,
 				09FD1C4422FAC77B00EAD4B7 /* Main.storyboard */,
 				09FD1C4722FAC77C00EAD4B7 /* Assets.xcassets */,
 				09FD1C4922FAC77C00EAD4B7 /* LaunchScreen.storyboard */,
@@ -132,6 +162,23 @@
 			path = TestCoobjcUITests;
 			sourceTree = "<group>";
 		};
+		884661101BA5AAD232EE9767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F989B9ADCD523C7B74EEA7 /* libPods-TestCoobjc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E3AFE2F97853A54951C6D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				138C0C25C83B5209266157A7 /* Pods-TestCoobjc.debug.xcconfig */,
+				0AD627804E5F3F0BBE256B2B /* Pods-TestCoobjc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09FD1C6722FAC77C00EAD4B7 /* Build configuration list for PBXNativeTarget "TestCoobjc" */;
 			buildPhases = (
+				C60E6B827B8711098AAAC1F1 /* [CP] Check Pods Manifest.lock */,
 				09FD1C3722FAC77B00EAD4B7 /* Sources */,
 				09FD1C3822FAC77B00EAD4B7 /* Frameworks */,
 				09FD1C3922FAC77B00EAD4B7 /* Resources */,
@@ -257,6 +305,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C60E6B827B8711098AAAC1F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCoobjc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09FD1C3722FAC77B00EAD4B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +338,9 @@
 				09FD1C4322FAC77B00EAD4B7 /* ViewController.m in Sources */,
 				09FD1C4E22FAC77C00EAD4B7 /* main.m in Sources */,
 				09FD1C4022FAC77B00EAD4B7 /* AppDelegate.m in Sources */,
+				09E25893232E5D92005C0B41 /* Actor.m in Sources */,
+				09E01C29238FA9BA005AFE0D /* Counter.m in Sources */,
+				09C888ED23782B2800E56F96 /* MultiThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +509,7 @@
 		};
 		09FD1C6822FAC77C00EAD4B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138C0C25C83B5209266157A7 /* Pods-TestCoobjc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +526,7 @@
 		};
 		09FD1C6922FAC77C00EAD4B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD627804E5F3F0BBE256B2B /* Pods-TestCoobjc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

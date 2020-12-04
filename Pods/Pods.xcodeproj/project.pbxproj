@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B647C47198292155547B40AF1D2139B /* cofishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = B2A66582E0CA36CA187D6074ACD665A2 /* cofishhook.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D07BF6534563E2DE4BC0B2C287FC784 /* co_csp.h in Headers */ = {isa = PBXBuildFile; fileRef = E597ED69CC73B3739215171A2B0C09BF /* co_csp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2043FD512670708FB50E1DEEDBB10F85 /* co_tuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 926CA3EF1C692E14D16F8274B7028ADF /* co_tuple.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		316CFBDEDBA0C773565126485974E503 /* coroutine_context.s in Sources */ = {isa = PBXBuildFile; fileRef = BB848781C13640B25839A42A3301A90F /* coroutine_context.s */; };
+		395118716305F2C9D57260276CA281FD /* COGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7077B73A3F17CDAF96A6D8BD0D791F87 /* COGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D59A84FA69A06AECDAFB32B3A32BFBA /* co_queuedebugging_support.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1843F6CD78BC58F831B0D14F9D5891 /* co_queuedebugging_support.m */; };
+		406DDE8B5C5CFFBB3420DAA4E4964628 /* COChan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F8831C900BA62F1F3337CFEEDB99C /* COChan.m */; };
+		41CFE88DCAAB7E4AA0C8B694FEFC6171 /* cofishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A228098836F3C78C49AFA017B254B8D /* cofishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4286C74664EABEFD0B4C66D0F8E17A20 /* coroutine_context.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DCD50C759265668059334624335135 /* coroutine_context.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5111ADF35E9DD3DB73CB81573EA891F9 /* co_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3D6D409E919B8BA5A2F61D057CE1BB /* co_queue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52C40AB7ED1DE93978D6C855D7DEC7DF /* COActorCompletable.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DB91E001CD60B7D89D3B4824E98D4B /* COActorCompletable.m */; };
+		541663625A86672C5EF454161BEBECC3 /* Pods-TestCoobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB97C09B91839FA19AF046F29AEEB65B /* Pods-TestCoobjc-dummy.m */; };
+		5B1901F9034DA94889F9F8F3AAF5EAC9 /* COGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DEBD224B815F78FBAFA175C7118E2E /* COGenerator.m */; };
+		5CEB5B27F993891F5F4A303FCF51A656 /* COPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9FC3CF2942F657B69C123C06DC96B2 /* COPromise.m */; };
+		5DD552E0D273920A94CB334841567BEE /* co_errors.m in Sources */ = {isa = PBXBuildFile; fileRef = A23D834A38611CA3DDD2DFE21DB03243 /* co_errors.m */; };
+		61457290D228BC5CCBA582422A934305 /* CODispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE123D2250723967EF303C9CB6E22A4 /* CODispatch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64B94DAF13AE51726307B2A14141F5EF /* coroutine_context.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23E91F90FC7BCA209EEC890A79019E /* coroutine_context.m */; };
+		6AEFA908A02E1EF4BA4195F25C81EA9B /* cocore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE35EC0B7B3AC2BF47798AF3E3F9B1BF /* cocore-dummy.m */; };
+		6F8C87751FF25092EF5CC468A38CBEF3 /* COActorChan.m in Sources */ = {isa = PBXBuildFile; fileRef = 937E5CEB2716E8C069BBA7054245F568 /* COActorChan.m */; };
+		792ED70C161DED31D3AFA7B56C1F6221 /* co_queuedebugging_support.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CA947A6B9DF58C534AB749FE7AD0C1 /* co_queuedebugging_support.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90E7188DFB9C52C5286C5C192F4090B5 /* COActorChan.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F451FE695D20E9B72D5905C003E1FC /* COActorChan.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9280BC5B0A9655DC7F36939C3CF96107 /* co_csp.m in Sources */ = {isa = PBXBuildFile; fileRef = DA70CE44FD1198EE3E2069410F2E5257 /* co_csp.m */; };
+		95203B56F9E5183AC509B190C6EA3808 /* COActorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A17933405925955378E2E7BB58076E /* COActorMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9928AEAA496A7CE5B9B36D6745059B33 /* COChan.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7462F300B27564666F3585CEF81C52 /* COChan.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E71960BF600EB93DA0ADD22E2BBED17 /* COActorCompletable.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C561647FC597045EEFA3FA0E3C4B42 /* COActorCompletable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A25CF30D11736A8544FE95C3B14142EF /* co_tuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 388E6609502F621FE205BA667B2C437A /* co_tuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A3123FADC2AFBA5AE2D618DD50E7015E /* CODispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4013CC44FA1F3D69DC2E89A4B7ECFF /* CODispatch.m */; };
+		AD3355FE6FD7A2586796F1DAE09CC3F9 /* co_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 887BD0162FB8798A9266B34BD32FE71F /* co_errors.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE48073BFA9B06117547A02B85A2B100 /* COCoroutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD013D1B159DF613D1D9E1A4A896E6 /* COCoroutine.m */; };
+		B30231639E256B01DC6332152DBC97BF /* co_queue.m in Sources */ = {isa = PBXBuildFile; fileRef = C050E785A3B82D6DD251352D28ECF369 /* co_queue.m */; };
+		B939F92529B29C916B453BC2E3A0C433 /* coroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4B6A12AEC7A006B6E1B02C4CC88289 /* coroutine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BEC698466C3CF61819602FFE366BF88F /* coroutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 14676B09615D1014067F84ACD93510F3 /* coroutine.m */; };
+		C0C4D99E9506B36F50828707A8731C36 /* co_autorelease.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CB3F4BEB9F38DEE6AAECF63425F5EC /* co_autorelease.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C56BB572BED3B28791F58E1CFE2D1A22 /* co_autorelease.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15142E58B3B07DE7DC40E2A52954466D /* co_autorelease.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CADE85A690A7935D03AF615F7D45C9C1 /* COPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9892EC55FC73FC87053CF5E741B055 /* COPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBC8B687E1736E76B9426D79760E67C4 /* COLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCBFE72A9D2D71CE9DFAD3829D33F32 /* COLock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D576965710870BF8E0405F35EE983272 /* COActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 578C3066D6E0A751833FCD556F847FE0 /* COActor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D58D21CF85245D564DF2A1BDB208D972 /* coobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E260ADF2C7B38FEE0BF4A37EE0D1064 /* coobjc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DAC722868ED38CE9F318CC7ADC62E2A7 /* COCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 280770CD4FA3F01E2D763C64FF2536C0 /* COCoroutine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E484CC0D205DEEEB29D0B5247A153EBD /* coobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D7C8F0DAE54A1F0FC93179A0493ED /* coobjc-dummy.m */; };
+		E92A8535F0F5644F8DF414E2AB002321 /* COActorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F64DB7AEBD65B10865A519D5319B2EF5 /* COActorMessage.m */; };
+		F5129FBA9CBC22565298492D8DA93FAF /* cocore.h in Headers */ = {isa = PBXBuildFile; fileRef = F03EFAA669F09C74E9C4B7C96A8BD073 /* cocore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF8B7788445F8672FDE61393D21B55DC /* COActor.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5A0980D7FC59959A0838713A28A61 /* COActor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B0BF25C84301D2211AAB5CD2C5D4B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1470988D9D5E0EBB0ABC8313894851A;
+			remoteInfo = coobjc;
+		};
+		22509D4AE61E18C8EECD92E84B911D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31EB174E297AAE291D844E1598635D15;
+			remoteInfo = cocore;
+		};
+		3A59FAF3408410427F5D0114B7B4F3CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31EB174E297AAE291D844E1598635D15;
+			remoteInfo = cocore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CAE12F80BCE4BA1E68D51DC7D477A77 /* libcocore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libcocore.a; path = libcocore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D23E91F90FC7BCA209EEC890A79019E /* coroutine_context.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = coroutine_context.m; path = cocore/coroutine_context.m; sourceTree = "<group>"; };
+		14676B09615D1014067F84ACD93510F3 /* coroutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = coroutine.m; path = cocore/coroutine.m; sourceTree = "<group>"; };
+		15142E58B3B07DE7DC40E2A52954466D /* co_autorelease.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = co_autorelease.mm; path = cocore/co_autorelease.mm; sourceTree = "<group>"; };
+		1A7462F300B27564666F3585CEF81C52 /* COChan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COChan.h; path = coobjc/co/COChan.h; sourceTree = "<group>"; };
+		2031DA1C419527B7696A3CBD50737501 /* cocore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cocore.xcconfig; sourceTree = "<group>"; };
+		2604CE914E0888038B7FAB300A9A7612 /* Pods-TestCoobjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCoobjc.debug.xcconfig"; sourceTree = "<group>"; };
+		280770CD4FA3F01E2D763C64FF2536C0 /* COCoroutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COCoroutine.h; path = coobjc/co/COCoroutine.h; sourceTree = "<group>"; };
+		2C4013CC44FA1F3D69DC2E89A4B7ECFF /* CODispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CODispatch.m; path = cocore/CODispatch.m; sourceTree = "<group>"; };
+		2E6F8831C900BA62F1F3337CFEEDB99C /* COChan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COChan.m; path = coobjc/co/COChan.m; sourceTree = "<group>"; };
+		2F3D6D409E919B8BA5A2F61D057CE1BB /* co_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = co_queue.h; path = cocore/co_queue.h; sourceTree = "<group>"; };
+		36DCD50C759265668059334624335135 /* coroutine_context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coroutine_context.h; path = cocore/coroutine_context.h; sourceTree = "<group>"; };
+		388E6609502F621FE205BA667B2C437A /* co_tuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = co_tuple.m; path = coobjc/tuple/co_tuple.m; sourceTree = "<group>"; };
+		3E260ADF2C7B38FEE0BF4A37EE0D1064 /* coobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coobjc.h; path = coobjc/coobjc.h; sourceTree = "<group>"; };
+		46F451FE695D20E9B72D5905C003E1FC /* COActorChan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COActorChan.h; path = coobjc/actor/COActorChan.h; sourceTree = "<group>"; };
+		4D9D7C8F0DAE54A1F0FC93179A0493ED /* coobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "coobjc-dummy.m"; sourceTree = "<group>"; };
+		4F6CCEC07FE111BC5FBFAF110988BD4A /* Pods-TestCoobjc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCoobjc-acknowledgements.plist"; sourceTree = "<group>"; };
+		578C3066D6E0A751833FCD556F847FE0 /* COActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COActor.h; path = coobjc/actor/COActor.h; sourceTree = "<group>"; };
+		5FBD013D1B159DF613D1D9E1A4A896E6 /* COCoroutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COCoroutine.m; path = coobjc/co/COCoroutine.m; sourceTree = "<group>"; };
+		6A228098836F3C78C49AFA017B254B8D /* cofishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cofishhook.h; path = cocore/cofishhook.h; sourceTree = "<group>"; };
+		7077B73A3F17CDAF96A6D8BD0D791F87 /* COGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COGenerator.h; path = coobjc/generator/COGenerator.h; sourceTree = "<group>"; };
+		7BEB298986C2974B40BF0C470F624797 /* Pods-TestCoobjc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCoobjc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		887BD0162FB8798A9266B34BD32FE71F /* co_errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = co_errors.h; path = cocore/co_errors.h; sourceTree = "<group>"; };
+		8FCBFE72A9D2D71CE9DFAD3829D33F32 /* COLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COLock.h; path = coobjc/co/COLock.h; sourceTree = "<group>"; };
+		91CA947A6B9DF58C534AB749FE7AD0C1 /* co_queuedebugging_support.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = co_queuedebugging_support.h; path = cocore/co_queuedebugging_support.h; sourceTree = "<group>"; };
+		926CA3EF1C692E14D16F8274B7028ADF /* co_tuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = co_tuple.h; path = coobjc/tuple/co_tuple.h; sourceTree = "<group>"; };
+		9338D17ADDD09ADD1467C00945815042 /* cocore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocore-prefix.pch"; sourceTree = "<group>"; };
+		937E5CEB2716E8C069BBA7054245F568 /* COActorChan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COActorChan.m; path = coobjc/actor/COActorChan.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23D834A38611CA3DDD2DFE21DB03243 /* co_errors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = co_errors.m; path = cocore/co_errors.m; sourceTree = "<group>"; };
+		A3DA8F09AEF14D3B09CBAD8F5F934B23 /* coobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "coobjc-prefix.pch"; sourceTree = "<group>"; };
+		A7DB91E001CD60B7D89D3B4824E98D4B /* COActorCompletable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COActorCompletable.m; path = coobjc/actor/COActorCompletable.m; sourceTree = "<group>"; };
+		AA8D66CCD026B9AAD65126787AE83665 /* coobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = coobjc.xcconfig; sourceTree = "<group>"; };
+		B2A66582E0CA36CA187D6074ACD665A2 /* cofishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cofishhook.c; path = cocore/cofishhook.c; sourceTree = "<group>"; };
+		B69DE3CF57D2FF1793990E3787EF51A9 /* libcoobjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libcoobjc.a; path = libcoobjc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB848781C13640B25839A42A3301A90F /* coroutine_context.s */ = {isa = PBXFileReference; includeInIndex = 1; name = coroutine_context.s; path = cocore/coroutine_context.s; sourceTree = "<group>"; };
+		BB9FC3CF2942F657B69C123C06DC96B2 /* COPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COPromise.m; path = coobjc/promise/COPromise.m; sourceTree = "<group>"; };
+		BDE123D2250723967EF303C9CB6E22A4 /* CODispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CODispatch.h; path = cocore/CODispatch.h; sourceTree = "<group>"; };
+		BE35EC0B7B3AC2BF47798AF3E3F9B1BF /* cocore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cocore-dummy.m"; sourceTree = "<group>"; };
+		BF1843F6CD78BC58F831B0D14F9D5891 /* co_queuedebugging_support.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = co_queuedebugging_support.m; path = cocore/co_queuedebugging_support.m; sourceTree = "<group>"; };
+		C050E785A3B82D6DD251352D28ECF369 /* co_queue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = co_queue.m; path = cocore/co_queue.m; sourceTree = "<group>"; };
+		C9CB3F4BEB9F38DEE6AAECF63425F5EC /* co_autorelease.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = co_autorelease.h; path = cocore/co_autorelease.h; sourceTree = "<group>"; };
+		CA4B6A12AEC7A006B6E1B02C4CC88289 /* coroutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coroutine.h; path = cocore/coroutine.h; sourceTree = "<group>"; };
+		CC2450477704DC2582AEFD1978E6DE8A /* libPods-TestCoobjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestCoobjc.a"; path = "libPods-TestCoobjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C561647FC597045EEFA3FA0E3C4B42 /* COActorCompletable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COActorCompletable.h; path = coobjc/actor/COActorCompletable.h; sourceTree = "<group>"; };
+		D98E86B89E6E034FBB66DA936DE2122E /* Pods-TestCoobjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCoobjc.release.xcconfig"; sourceTree = "<group>"; };
+		D9A17933405925955378E2E7BB58076E /* COActorMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COActorMessage.h; path = coobjc/actor/COActorMessage.h; sourceTree = "<group>"; };
+		DA70CE44FD1198EE3E2069410F2E5257 /* co_csp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = co_csp.m; path = cocore/co_csp.m; sourceTree = "<group>"; };
+		E1DEBD224B815F78FBAFA175C7118E2E /* COGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COGenerator.m; path = coobjc/generator/COGenerator.m; sourceTree = "<group>"; };
+		E597ED69CC73B3739215171A2B0C09BF /* co_csp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = co_csp.h; path = cocore/co_csp.h; sourceTree = "<group>"; };
+		EB97C09B91839FA19AF046F29AEEB65B /* Pods-TestCoobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCoobjc-dummy.m"; sourceTree = "<group>"; };
+		F03EFAA669F09C74E9C4B7C96A8BD073 /* cocore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cocore.h; path = cocore/cocore.h; sourceTree = "<group>"; };
+		F64DB7AEBD65B10865A519D5319B2EF5 /* COActorMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COActorMessage.m; path = coobjc/actor/COActorMessage.m; sourceTree = "<group>"; };
+		FCB5A0980D7FC59959A0838713A28A61 /* COActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COActor.m; path = coobjc/actor/COActor.m; sourceTree = "<group>"; };
+		FE9892EC55FC73FC87053CF5E741B055 /* COPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COPromise.h; path = coobjc/promise/COPromise.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF103E520A33DE4183E28B938414781F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E870912B26659B0A279A3F35D7D6AFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61DD6DBDD4F1E1E529EF857A12A9927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C7BB1D87D41C2ECBB9B44F81522E79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8D66CCD026B9AAD65126787AE83665 /* coobjc.xcconfig */,
+				4D9D7C8F0DAE54A1F0FC93179A0493ED /* coobjc-dummy.m */,
+				A3DA8F09AEF14D3B09CBAD8F5F934B23 /* coobjc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/coobjc";
+			sourceTree = "<group>";
+		};
+		4D962EF386C9A5A6193F3B6A17B7B521 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2031DA1C419527B7696A3CBD50737501 /* cocore.xcconfig */,
+				BE35EC0B7B3AC2BF47798AF3E3F9B1BF /* cocore-dummy.m */,
+				9338D17ADDD09ADD1467C00945815042 /* cocore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/cocore";
+			sourceTree = "<group>";
+		};
+		81D01C0E2E366615990A8227317F409C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6355CB7F6CF34E2BCC42D2C4C9FDA3E /* Pods-TestCoobjc */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		826DD4678EF9E9EC64D5ADD05592F8E9 /* cocore */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB3F4BEB9F38DEE6AAECF63425F5EC /* co_autorelease.h */,
+				15142E58B3B07DE7DC40E2A52954466D /* co_autorelease.mm */,
+				E597ED69CC73B3739215171A2B0C09BF /* co_csp.h */,
+				DA70CE44FD1198EE3E2069410F2E5257 /* co_csp.m */,
+				887BD0162FB8798A9266B34BD32FE71F /* co_errors.h */,
+				A23D834A38611CA3DDD2DFE21DB03243 /* co_errors.m */,
+				2F3D6D409E919B8BA5A2F61D057CE1BB /* co_queue.h */,
+				C050E785A3B82D6DD251352D28ECF369 /* co_queue.m */,
+				91CA947A6B9DF58C534AB749FE7AD0C1 /* co_queuedebugging_support.h */,
+				BF1843F6CD78BC58F831B0D14F9D5891 /* co_queuedebugging_support.m */,
+				F03EFAA669F09C74E9C4B7C96A8BD073 /* cocore.h */,
+				BDE123D2250723967EF303C9CB6E22A4 /* CODispatch.h */,
+				2C4013CC44FA1F3D69DC2E89A4B7ECFF /* CODispatch.m */,
+				B2A66582E0CA36CA187D6074ACD665A2 /* cofishhook.c */,
+				6A228098836F3C78C49AFA017B254B8D /* cofishhook.h */,
+				CA4B6A12AEC7A006B6E1B02C4CC88289 /* coroutine.h */,
+				14676B09615D1014067F84ACD93510F3 /* coroutine.m */,
+				36DCD50C759265668059334624335135 /* coroutine_context.h */,
+				0D23E91F90FC7BCA209EEC890A79019E /* coroutine_context.m */,
+				BB848781C13640B25839A42A3301A90F /* coroutine_context.s */,
+				4D962EF386C9A5A6193F3B6A17B7B521 /* Support Files */,
+			);
+			name = cocore;
+			path = cocore;
+			sourceTree = "<group>";
+		};
+		8B6EF13B424AF5B36788EFA21A92EB6F /* coobjc */ = {
+			isa = PBXGroup;
+			children = (
+				926CA3EF1C692E14D16F8274B7028ADF /* co_tuple.h */,
+				388E6609502F621FE205BA667B2C437A /* co_tuple.m */,
+				578C3066D6E0A751833FCD556F847FE0 /* COActor.h */,
+				FCB5A0980D7FC59959A0838713A28A61 /* COActor.m */,
+				46F451FE695D20E9B72D5905C003E1FC /* COActorChan.h */,
+				937E5CEB2716E8C069BBA7054245F568 /* COActorChan.m */,
+				D8C561647FC597045EEFA3FA0E3C4B42 /* COActorCompletable.h */,
+				A7DB91E001CD60B7D89D3B4824E98D4B /* COActorCompletable.m */,
+				D9A17933405925955378E2E7BB58076E /* COActorMessage.h */,
+				F64DB7AEBD65B10865A519D5319B2EF5 /* COActorMessage.m */,
+				1A7462F300B27564666F3585CEF81C52 /* COChan.h */,
+				2E6F8831C900BA62F1F3337CFEEDB99C /* COChan.m */,
+				280770CD4FA3F01E2D763C64FF2536C0 /* COCoroutine.h */,
+				5FBD013D1B159DF613D1D9E1A4A896E6 /* COCoroutine.m */,
+				7077B73A3F17CDAF96A6D8BD0D791F87 /* COGenerator.h */,
+				E1DEBD224B815F78FBAFA175C7118E2E /* COGenerator.m */,
+				8FCBFE72A9D2D71CE9DFAD3829D33F32 /* COLock.h */,
+				3E260ADF2C7B38FEE0BF4A37EE0D1064 /* coobjc.h */,
+				FE9892EC55FC73FC87053CF5E741B055 /* COPromise.h */,
+				BB9FC3CF2942F657B69C123C06DC96B2 /* COPromise.m */,
+				25C7BB1D87D41C2ECBB9B44F81522E79 /* Support Files */,
+			);
+			name = coobjc;
+			path = coobjc;
+			sourceTree = "<group>";
+		};
+		C6355CB7F6CF34E2BCC42D2C4C9FDA3E /* Pods-TestCoobjc */ = {
+			isa = PBXGroup;
+			children = (
+				7BEB298986C2974B40BF0C470F624797 /* Pods-TestCoobjc-acknowledgements.markdown */,
+				4F6CCEC07FE111BC5FBFAF110988BD4A /* Pods-TestCoobjc-acknowledgements.plist */,
+				EB97C09B91839FA19AF046F29AEEB65B /* Pods-TestCoobjc-dummy.m */,
+				2604CE914E0888038B7FAB300A9A7612 /* Pods-TestCoobjc.debug.xcconfig */,
+				D98E86B89E6E034FBB66DA936DE2122E /* Pods-TestCoobjc.release.xcconfig */,
+			);
+			name = "Pods-TestCoobjc";
+			path = "Target Support Files/Pods-TestCoobjc";
+			sourceTree = "<group>";
+		};
+		C702D8F8D1A4B700DDB9F91F7A8FF41E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				826DD4678EF9E9EC64D5ADD05592F8E9 /* cocore */,
+				8B6EF13B424AF5B36788EFA21A92EB6F /* coobjc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				C702D8F8D1A4B700DDB9F91F7A8FF41E /* Pods */,
+				F2F1780BDAE296AA8E8CE75B11BC62ED /* Products */,
+				81D01C0E2E366615990A8227317F409C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2F1780BDAE296AA8E8CE75B11BC62ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CAE12F80BCE4BA1E68D51DC7D477A77 /* libcocore.a */,
+				B69DE3CF57D2FF1793990E3787EF51A9 /* libcoobjc.a */,
+				CC2450477704DC2582AEFD1978E6DE8A /* libPods-TestCoobjc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E0A8D52AFCD6CF96A43C6F04C690EA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C4D99E9506B36F50828707A8731C36 /* co_autorelease.h in Headers */,
+				1D07BF6534563E2DE4BC0B2C287FC784 /* co_csp.h in Headers */,
+				AD3355FE6FD7A2586796F1DAE09CC3F9 /* co_errors.h in Headers */,
+				5111ADF35E9DD3DB73CB81573EA891F9 /* co_queue.h in Headers */,
+				792ED70C161DED31D3AFA7B56C1F6221 /* co_queuedebugging_support.h in Headers */,
+				F5129FBA9CBC22565298492D8DA93FAF /* cocore.h in Headers */,
+				61457290D228BC5CCBA582422A934305 /* CODispatch.h in Headers */,
+				41CFE88DCAAB7E4AA0C8B694FEFC6171 /* cofishhook.h in Headers */,
+				B939F92529B29C916B453BC2E3A0C433 /* coroutine.h in Headers */,
+				4286C74664EABEFD0B4C66D0F8E17A20 /* coroutine_context.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944FB899A8720127F07A94E3941F6B64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE8607611A35E8BB364DB9A2543F067 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2043FD512670708FB50E1DEEDBB10F85 /* co_tuple.h in Headers */,
+				D576965710870BF8E0405F35EE983272 /* COActor.h in Headers */,
+				90E7188DFB9C52C5286C5C192F4090B5 /* COActorChan.h in Headers */,
+				9E71960BF600EB93DA0ADD22E2BBED17 /* COActorCompletable.h in Headers */,
+				95203B56F9E5183AC509B190C6EA3808 /* COActorMessage.h in Headers */,
+				9928AEAA496A7CE5B9B36D6745059B33 /* COChan.h in Headers */,
+				DAC722868ED38CE9F318CC7ADC62E2A7 /* COCoroutine.h in Headers */,
+				395118716305F2C9D57260276CA281FD /* COGenerator.h in Headers */,
+				CBC8B687E1736E76B9426D79760E67C4 /* COLock.h in Headers */,
+				D58D21CF85245D564DF2A1BDB208D972 /* coobjc.h in Headers */,
+				CADE85A690A7935D03AF615F7D45C9C1 /* COPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31EB174E297AAE291D844E1598635D15 /* cocore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15E50BA8983D69D866115CA000AD00F /* Build configuration list for PBXNativeTarget "cocore" */;
+			buildPhases = (
+				1E0A8D52AFCD6CF96A43C6F04C690EA8 /* Headers */,
+				91E9079BF72103A09B150D4B8B1B5C48 /* Sources */,
+				F61DD6DBDD4F1E1E529EF857A12A9927 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cocore;
+			productName = cocore;
+			productReference = 0CAE12F80BCE4BA1E68D51DC7D477A77 /* libcocore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		63EF076244ECA960A6E685902A4B2D34 /* Pods-TestCoobjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24D6263AAC957CCB912BB19CE422AEA /* Build configuration list for PBXNativeTarget "Pods-TestCoobjc" */;
+			buildPhases = (
+				944FB899A8720127F07A94E3941F6B64 /* Headers */,
+				C6C416101959898B365E95781D18F5F8 /* Sources */,
+				E870912B26659B0A279A3F35D7D6AFF8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FAD0F9F6F5A90F5B5B8DC698231BC1 /* PBXTargetDependency */,
+				8EC9E8CEBAF9D28EAA1F877795BEBE5D /* PBXTargetDependency */,
+			);
+			name = "Pods-TestCoobjc";
+			productName = "Pods-TestCoobjc";
+			productReference = CC2450477704DC2582AEFD1978E6DE8A /* libPods-TestCoobjc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1470988D9D5E0EBB0ABC8313894851A /* coobjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4617A8C7C62B98F835CAFB60F3B6641 /* Build configuration list for PBXNativeTarget "coobjc" */;
+			buildPhases = (
+				9AE8607611A35E8BB364DB9A2543F067 /* Headers */,
+				913077A80BB7ED7E5AC8DC85CA15AC5F /* Sources */,
+				AF103E520A33DE4183E28B938414781F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5A11BC7AE0B85F04F49BB422D5845A /* PBXTargetDependency */,
+			);
+			name = coobjc;
+			productName = coobjc;
+			productReference = B69DE3CF57D2FF1793990E3787EF51A9 /* libcoobjc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F2F1780BDAE296AA8E8CE75B11BC62ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31EB174E297AAE291D844E1598635D15 /* cocore */,
+				D1470988D9D5E0EBB0ABC8313894851A /* coobjc */,
+				63EF076244ECA960A6E685902A4B2D34 /* Pods-TestCoobjc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913077A80BB7ED7E5AC8DC85CA15AC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25CF30D11736A8544FE95C3B14142EF /* co_tuple.m in Sources */,
+				FF8B7788445F8672FDE61393D21B55DC /* COActor.m in Sources */,
+				6F8C87751FF25092EF5CC468A38CBEF3 /* COActorChan.m in Sources */,
+				52C40AB7ED1DE93978D6C855D7DEC7DF /* COActorCompletable.m in Sources */,
+				E92A8535F0F5644F8DF414E2AB002321 /* COActorMessage.m in Sources */,
+				406DDE8B5C5CFFBB3420DAA4E4964628 /* COChan.m in Sources */,
+				AE48073BFA9B06117547A02B85A2B100 /* COCoroutine.m in Sources */,
+				5B1901F9034DA94889F9F8F3AAF5EAC9 /* COGenerator.m in Sources */,
+				E484CC0D205DEEEB29D0B5247A153EBD /* coobjc-dummy.m in Sources */,
+				5CEB5B27F993891F5F4A303FCF51A656 /* COPromise.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E9079BF72103A09B150D4B8B1B5C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56BB572BED3B28791F58E1CFE2D1A22 /* co_autorelease.mm in Sources */,
+				9280BC5B0A9655DC7F36939C3CF96107 /* co_csp.m in Sources */,
+				5DD552E0D273920A94CB334841567BEE /* co_errors.m in Sources */,
+				B30231639E256B01DC6332152DBC97BF /* co_queue.m in Sources */,
+				3D59A84FA69A06AECDAFB32B3A32BFBA /* co_queuedebugging_support.m in Sources */,
+				6AEFA908A02E1EF4BA4195F25C81EA9B /* cocore-dummy.m in Sources */,
+				A3123FADC2AFBA5AE2D618DD50E7015E /* CODispatch.m in Sources */,
+				1B647C47198292155547B40AF1D2139B /* cofishhook.c in Sources */,
+				BEC698466C3CF61819602FFE366BF88F /* coroutine.m in Sources */,
+				64B94DAF13AE51726307B2A14141F5EF /* coroutine_context.m in Sources */,
+				316CFBDEDBA0C773565126485974E503 /* coroutine_context.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C416101959898B365E95781D18F5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541663625A86672C5EF454161BEBECC3 /* Pods-TestCoobjc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79FAD0F9F6F5A90F5B5B8DC698231BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocore;
+			target = 31EB174E297AAE291D844E1598635D15 /* cocore */;
+			targetProxy = 22509D4AE61E18C8EECD92E84B911D5B /* PBXContainerItemProxy */;
+		};
+		8EC9E8CEBAF9D28EAA1F877795BEBE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = coobjc;
+			target = D1470988D9D5E0EBB0ABC8313894851A /* coobjc */;
+			targetProxy = 0B0BF25C84301D2211AAB5CD2C5D4B99 /* PBXContainerItemProxy */;
+		};
+		FD5A11BC7AE0B85F04F49BB422D5845A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocore;
+			target = 31EB174E297AAE291D844E1598635D15 /* cocore */;
+			targetProxy = 3A59FAF3408410427F5D0114B7B4F3CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F3852E6CF8DBD344BC67D2A8AC74FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2031DA1C419527B7696A3CBD50737501 /* cocore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/cocore/cocore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = cocore;
+				PRODUCT_NAME = cocore;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66B83B8274EEEDA4A5C996AAAFC79B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98E86B89E6E034FBB66DA936DE2122E /* Pods-TestCoobjc.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76E1ADB468B6FFFDD2FE57FDA173AA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2031DA1C419527B7696A3CBD50737501 /* cocore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/cocore/cocore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = cocore;
+				PRODUCT_NAME = cocore;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9342281B73E13743AA597D53F119E761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2604CE914E0888038B7FAB300A9A7612 /* Pods-TestCoobjc.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABCE1BD49FF4224D7415B19AA5DE6679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8D66CCD026B9AAD65126787AE83665 /* coobjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/coobjc/coobjc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = coobjc;
+				PRODUCT_NAME = coobjc;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B53313E5C552AB684704A6C302FD968E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8D66CCD026B9AAD65126787AE83665 /* coobjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/coobjc/coobjc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = coobjc;
+				PRODUCT_NAME = coobjc;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15E50BA8983D69D866115CA000AD00F /* Build configuration list for PBXNativeTarget "cocore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E1ADB468B6FFFDD2FE57FDA173AA9D /* Debug */,
+				5F3852E6CF8DBD344BC67D2A8AC74FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24D6263AAC957CCB912BB19CE422AEA /* Build configuration list for PBXNativeTarget "Pods-TestCoobjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9342281B73E13743AA597D53F119E761 /* Debug */,
+				66B83B8274EEEDA4A5C996AAAFC79B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4617A8C7C62B98F835CAFB60F3B6641 /* Build configuration list for PBXNativeTarget "coobjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53313E5C552AB684704A6C302FD968E /* Debug */,
+				ABCE1BD49FF4224D7415B19AA5DE6679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

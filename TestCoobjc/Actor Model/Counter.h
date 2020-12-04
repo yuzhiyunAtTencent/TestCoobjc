@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Counter : NSObject
 
+- (void)incCount;
+
+- (int)getCount;
+
 @end
 
 NS_ASSUME_NONNULL_END

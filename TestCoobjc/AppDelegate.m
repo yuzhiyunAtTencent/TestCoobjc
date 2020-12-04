@@ -8,12 +8,15 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+@import AVFoundation;
+
+@interface AppDelegate () <AVAudioPlayerDelegate>
+
+@property (nonatomic, strong) AVAudioPlayer *player;
 
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

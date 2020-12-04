@@ -1,0 +1,20 @@
+PODS:
+  - cocore (1.2.0)
+  - coobjc (1.2.0):
+    - cocore (~> 1.2.0)
+
+DEPENDENCIES:
+  - coobjc
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - cocore
+    - coobjc
+
+SPEC CHECKSUMS:
+  cocore: cc9d76229458f286a632d9cecb63bd699bd3529d
+  coobjc: 090a460e32e90d0e820e64c31cf7b79dece51a7c
+
+PODFILE CHECKSUM: 151c49b10543e8663e586a3c475cad8a625eb882
+
+COCOAPODS: 1.7.1

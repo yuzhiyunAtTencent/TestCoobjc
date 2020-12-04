@@ -8,6 +8,20 @@
 
 #import "Counter.h"
 
+@interface Counter ()
+
+@property (nonatomic, assign) int count;
+
+@end
+
 @implementation Counter
+
+- (void)incCount {
+    _count ++;
+}
+
+- (int)getCount {
+    return _count;
+}
 
 @end

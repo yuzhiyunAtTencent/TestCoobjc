@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Actor : NSObject
 
+- (void)startTask;
+
 @end
 
 NS_ASSUME_NONNULL_END
